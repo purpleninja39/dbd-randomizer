@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+#addons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

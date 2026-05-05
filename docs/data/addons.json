@@ -1,0 +1,24 @@
+{
+  "addons": [
+    {
+      "name": "Common",
+      "image": "images/Add-on Rarities/DBD-addons-common.png"
+    },
+    {
+      "name": "Uncommon",
+      "image": "images/Add-on Rarities/DBD-addons-uncommon.png"
+    },
+    {
+      "name": "Rare",
+      "image": "images/Add-on Rarities/DBD-addons-rare.png"
+    },
+    {
+      "name": "Very Rare",
+      "image": "images/Add-on Rarities/DBD-addons-veryrare.png"
+    },
+    {
+      "name": "Iridescent",
+      "image": "images/Add-on Rarities/DBD-addons-ultrarare.png"
+    }
+  ]
+}

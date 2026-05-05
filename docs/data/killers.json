@@ -2,7 +2,21 @@
   "killers": [
     {
       "name": "The Trapper",
-      "image": "images/Killer Resources/The Trapper/K01_TheTrapper_Portrait.png"
+      "image": "images/Killer Resources/The Trapper/K01_TheTrapper_Portrait.png",
+      "perks": [
+        {
+          "name": "Agitation",
+          "image": "images/Killer Resources/The Trapper/Adept Perks/iconPerks_Agitation.png"
+        },
+        {
+          "name": "Brutal Strength",
+          "image": "images/Killer Resources/The Trapper/Adept Perks/iconPerks_BrutalStrength.png"
+        },
+        {
+          "name": "Unnerving Presence",
+          "image": "images/Killer Resources/The Trapper/Adept Perks/iconPerks_UnnervingPresence.png"
+        }
+      ]
     }
   ]
 }

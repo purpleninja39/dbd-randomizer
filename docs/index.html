@@ -3,23 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>DBD Killer Randomizer (PROTOTYPE)</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 40px;
-        }
-        img {
-            max-width: 300px;
-            height: auto;
-            margin-top: 20px;
-        }
-        button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -27,8 +11,16 @@
 
 <img id="killer-img" alt="Killer Image" />
 
-<br />
-<button onclick="showRandomKiller()">Roll Killer</button>
+<h2>Adept Perk</h2>
+<img id="perk-img" alt="Perk Image" />
+
+<h2>Add-ons</h2>
+<div id="addons">
+    <img id="addon1-img" alt="Addon 1" />
+    <img id="addon2-img" alt="Addon 2" />
+</div>
+
+<button id="roll-btn">Roll Killer</button>
 
 <script src="script.js"></script>
 </body>
