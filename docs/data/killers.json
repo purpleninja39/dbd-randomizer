@@ -71,6 +71,690 @@
           "image": "images/Killer Resources/The Blight/Adept Perks/iconPerks_HexUndying.png"
         }
       ]
+    },
+    {
+      "name": "The Cannibal",
+      "image": "images/Killer Resources/The Cannibal/K09_TheCannibal_Portrait.png",
+      "perks": [
+        {
+          "name": "BBQ and Chili",
+          "image": "images/Killer Resources/The Cannibal/Adept Perks/iconPerks_BBQAndChili.png"
+        },
+        {
+          "name": "Franklin's Demise",
+          "image": "images/Killer Resources/The Cannibal/Adept Perks/iconPerks_FranklinsLoss.png"
+        },
+        {
+          "name": "Knock-out",
+          "image": "images/Killer Resources/The Cannibal/Adept Perks/iconPerks_KnockOut.png"
+        }
+      ]
+    },
+    {
+      "name": "The Cenobite",
+      "image": "images/Killer Resources/The Cenobite/K25_TheCenobite_Portrait.png",
+      "perks": [
+        {
+          "name": "Deadlock",
+          "image": "images/Killer Resources/The Cenobite/Adept Perks/iconPerks_Deadlock.png"
+        },
+        {
+          "name": "Hex: Plaything",
+          "image": "images/Killer Resources/The Cenobite/Adept Perks/iconPerks_HexPlaything.png"
+        },
+        {
+          "name": "Scourge Hook: Gift of Pain",
+          "image": "images/Killer Resources/The Cenobite/Adept Perks/iconPerks_ScourgeHookGiftOfPain.png"
+        }
+      ]
+    },
+    {
+      "name": "The Clown",
+      "image": "images/Killer Resources/The Clown/K12_TheClown_Portrait.png",
+      "perks": [
+        {
+          "name": "Bamboozle",
+          "image": "images/Killer Resources/The Clown/Adept Perks/iconPerks_Bamboozle.png"
+        },
+        {
+          "name": "Coulrophobia",
+          "image": "images/Killer Resources/The Clown/Adept Perks/iconPerks_Coulrophobia.png"
+        },
+        {
+          "name": "Pop Goes the Weasel",
+          "image": "images/Killer Resources/The Clown/Adept Perks/iconPerks_PopGoesTheWeasel.png"
+        }
+      ]
+    },
+    {
+      "name": "The Dark Lord",
+      "image": "images/Killer Resources/The Dark Lord/K37_TheDracula_Portrait.png",
+      "perks": [
+        {
+          "name": "Dominance",
+          "image": "images/Killer Resources/The Dark Lord/Adept Perks/iconPerks_Dominance.png"
+        },
+        {
+          "name": "Hex: Wretched Fate",
+          "image": "images/Killer Resources/The Dark Lord/Adept Perks/iconPerks_HexWretchedFate.png"
+        },
+        {
+          "name": "Human Greed",
+          "image": "images/Killer Resources/The Dark Lord/Adept Perks/iconPerks_HumanGreed.png"
+        }
+      ]
+    },
+    {
+      "name": "The Deathslinger",
+      "image": "images/Killer Resources/The Deathslinger/K19_TheDeathslinger_Portrait.png",
+      "perks": [
+        {
+          "name": "Dead Man's Switch",
+          "image": "images/Killer Resources/The Deathslinger/Adept Perks/iconPerks_DeadManSwitch.png"
+        },
+        {
+          "name": "Gear-head",
+          "image": "images/Killer Resources/The Deathslinger/Adept Perks/iconPerks_GearHead.png"
+        },
+        {
+          "name": "Hex: Retribution",
+          "image": "images/Killer Resources/The Deathslinger/Adept Perks/iconPerks_HexRetribution.png"
+        }
+      ]
+    },
+    {
+      "name": "The Demogorgon",
+      "image": "images/Killer Resources/The Demogorgon/K17_TheDemogorgon_Portrait.png",
+      "perks": [
+        {
+          "name": "Claustrophobia",
+          "image": "images/Killer Resources/The Demogorgon/Adept Perks/iconPerks_CruelConfinement.png"
+        },
+        {
+          "name": "Mind Breaker",
+          "image": "images/Killer Resources/The Demogorgon/Adept Perks/iconPerks_MindBreaker.png"
+        },
+        {
+          "name": "Surge",
+          "image": "images/Killer Resources/The Demogorgon/Adept Perks/iconPerks_Surge.png"
+        }
+      ]
+    },
+    {
+      "name": "The Doctor",
+      "image": "images/Killer Resources/The Doctor/K07_TheDoctor_Portrait.png",
+      "perks": [
+        {
+          "name": "Overcharge",
+          "image": "images/Killer Resources/The Doctor/Adept Perks/iconPerks_GeneratorOvercharge.png"
+        },
+        {
+          "name": "Monitor and Abuse",
+          "image": "images/Killer Resources/The Doctor/Adept Perks/iconPerks_MonitorAndAbuse.png"
+        },
+        {
+          "name": "Overwhelming Presence",
+          "image": "images/Killer Resources/The Doctor/Adept Perks/iconPerks_OverwhelmingPresence.png"
+        }
+      ]
+    },
+    {
+      "name": "The Dredge",
+      "image": "images/Killer Resources/The Dredge/K28_TheDredge_Portrait.png",
+      "perks": [
+        {
+          "name": "Darkness Revealed",
+          "image": "images/Killer Resources/The Dredge/Adept Perks/iconPerks_DarknessRevelated.png"
+        },
+        {
+          "name": "Dissolution",
+          "image": "images/Killer Resources/The Dredge/Adept Perks/iconPerks_Dissolution.png"
+        },
+        {
+          "name": "Septic Touch",
+          "image": "images/Killer Resources/The Dredge/Adept Perks/iconPerks_SepticTouch.png"
+        }
+      ]
+    },
+    {
+      "name": "The Executioner",
+      "image": "images/Killer Resources/The Executioner/K20_TheExecutioner_Portrait.png",
+      "perks": [
+        {
+          "name": "Deathbound",
+          "image": "images/Killer Resources/The Executioner/Adept Perks/iconPerks_Deathbound.png"
+        },
+        {
+          "name": "Forced Penance",
+          "image": "images/Killer Resources/The Executioner/Adept Perks/iconPerks_ForcedPenance.png"
+        },
+        {
+          "name": "Trail of Torment",
+          "image": "images/Killer Resources/The Executioner/Adept Perks/iconPerks_TrailOfTorment.png"
+        }
+      ]
+    },
+    {
+      "name": "The First",
+      "image": "images/Killer Resources/The First/T_UI_K42_TheFirst_Portrait.png",
+      "perks": [
+        {
+          "name": "Hex: Hive Mind",
+          "image": "images/Killer Resources/The First/Adept Perks/T_UI_iconsPerks_HexHiveMind.png"
+        },
+        {
+          "name": "Secret Project",
+          "image": "images/Killer Resources/The First/Adept Perks/T_UI_iconsPerks_SecretProject.png"
+        },
+        {
+          "name": "Turn Back the Clock",
+          "image": "images/Killer Resources/The First/Adept Perks/T_UI_iconsPerks_TurnBackTheClock.png"
+        }
+      ]
+    },
+    {
+      "name": "The Ghostface",
+      "image": "images/Killer Resources/The Ghostface/K16_TheGhostface_Portrait.png",
+      "perks": [
+        {
+          "name": "Furtive Chase",
+          "image": "images/Killer Resources/The Ghostface/Adept Perks/iconPerks_FurtiveChase.png"
+        },
+        {
+          "name": "I'm All Ears",
+          "image": "images/Killer Resources/The Ghostface/Adept Perks/iconPerks_ImAllEars.png"
+        },
+        {
+          "name": "Thrilling Tremors",
+          "image": "images/Killer Resources/The Ghostface/Adept Perks/iconPerks_ThrillingTremors.png"
+        }
+      ]
+    },
+    {
+      "name": "The Ghoul",
+      "image": "images/Killer Resources/The Ghoul/K39_TheGhoul_Portrait.png",
+      "perks": [
+        {
+          "name": "Forever Entwined",
+          "image": "images/Killer Resources/The Ghoul/Adept Perks/T_UI_iconPerks_ForeverEntwined.png"
+        },
+        {
+          "name": "Hex: None Are Free",
+          "image": "images/Killer Resources/The Ghoul/Adept Perks/T_UI_iconPerks_NoneAreFree.png"
+        },
+        {
+          "name": "Nothing But Misery",
+          "image": "images/Killer Resources/The Ghoul/Adept Perks/T_UI_iconPerks_NothingButMisery.png"
+        }
+      ]
+    },
+    {
+      "name": "The Good Guy",
+      "image": "images/Killer Resources/The Good Guy/K34_TheYerkes_Portrait.png",
+      "perks": [
+        {
+          "name": "Batteries Included",
+          "image": "images/Killer Resources/The Good Guy/Adept Perks/iconPerks_batteriesIncluded.png"
+        },
+        {
+          "name": "Friends Till the End",
+          "image": "images/Killer Resources/The Good Guy/Adept Perks/iconPerks_friendsTillTheEnd.png"
+        },
+        {
+          "name": "Hex: Two Can Play",
+          "image": "images/Killer Resources/The Good Guy/Adept Perks/iconPerks_twoCanPlay.png"
+        }
+      ]
+    },
+    {
+      "name": "The Hag",
+      "image": "images/Killer Resources/The Hag/K05_TheHag_Portrait.png",
+      "perks": [
+        {
+          "name": "Hex: Devour Hope",
+          "image": "images/Killer Resources/The Hag/Adept Perks/iconPerks_DevourHope.png"
+        },
+        {
+          "name": "Hex: Ruin",
+          "image": "images/Killer Resources/The Hag/Adept Perks/iconPerks_Ruin.png"
+        },
+        {
+          "name": "Hex: The Third Seal",
+          "image": "images/Killer Resources/The Hag/Adept Perks/iconPerks_TheThirdSeal.png"
+        }
+      ]
+    },
+    {
+      "name": "The Hillbilly",
+      "image": "images/Killer Resources/The Hillbilly/K03_TheHillbilly_Portrait.png",
+      "perks": [
+        {
+          "name": "Lightborn",
+          "image": "images/Killer Resources/The Hillbilly/Adept Perks/iconPerks_Lightborn.png"
+        },
+        {
+          "name": "Tinkerer",
+          "image": "images/Killer Resources/The Hillbilly/Adept Perks/iconPerks_Tinkerer.png"
+        },
+        {
+          "name": "Unrelenting (but I meant Enduring and am too lazy to get the right image LOL)",
+          "image": "images/Killer Resources/The Hillbilly/Adept Perks/iconPerks_Unrelenting.png"
+        }
+      ]
+    },
+    {
+      "name": "The Houndmaster",
+      "image": "images/Killer Resources/The Houndmaster/K38_TheHoundmaster_Portrait.png",
+      "perks": [
+        {
+          "name": "All-Shaking Thunder",
+          "image": "images/Killer Resources/The Houndmaster/Adept Perks/T_UI_iconPerks_AllShakingThunder.png"
+        },
+        {
+          "name": "No Quarter",
+          "image": "images/Killer Resources/The Houndmaster/Adept Perks/T_UI_iconPerks_NoQuarter.png"
+        },
+        {
+          "name": "Scourge Hook: Jagged Compass",
+          "image": "images/Killer Resources/The Houndmaster/Adept Perks/T_UI_iconPerks_ScourgeHookJaggedCompass.png"
+        }
+      ]
+    },
+    {
+      "name": "The Huntress",
+      "image": "images/Killer Resources/The Huntress/K08_TheHuntress_Portrait.png",
+      "perks": [
+        {
+          "name": "Beast of Prey",
+          "image": "images/Killer Resources/The Huntress/Adept Perks/iconPerks_BeastOfPrey.png"
+        },
+        {
+          "name": "Hex: Huntress Lullaby",
+          "image": "images/Killer Resources/The Huntress/Adept Perks/iconPerks_HuntressLullaby.png"
+        },
+        {
+          "name": "Territorial Imperative",
+          "image": "images/Killer Resources/The Huntress/Adept Perks/iconPerks_TerritorialImperative.png"
+        }
+      ]
+    },
+    {
+      "name": "The Knight",
+      "image": "images/Killer Resources/The Knight/K30_TheKnight_Portrait.png",
+      "perks": [
+        {
+          "name": "Hex: Face the Darkness",
+          "image": "images/Killer Resources/The Knight/Adept Perks/iconPerks_HexFaceTheDarkness.png"
+        },
+        {
+          "name": "Hubris",
+          "image": "images/Killer Resources/The Knight/Adept Perks/iconPerks_Hubris.png"
+        },
+        {
+          "name": "Nowhere to Hide",
+          "image": "images/Killer Resources/The Knight/Adept Perks/iconPerks_NowhereToHide.png"
+        }
+      ]
+    },
+    {
+      "name": "The Krasue",
+      "image": "images/Killer Resources/The Krasue/T_UI_K41_TheKrasue_Portrait.png",
+      "perks": [
+        {
+          "name": "Hex: Overture of Doom",
+          "image": "images/Killer Resources/The Krasue/Adept Perks/T_UI_iconPerks_HexOvertureOfDoom.png"
+        },
+        {
+          "name": "Ravenous",
+          "image": "images/Killer Resources/The Krasue/Adept Perks/T_UI_iconPerks_Ravenous.png"
+        },
+        {
+          "name": "Wandering Eye",
+          "image": "images/Killer Resources/The Krasue/Adept Perks/T_UI_iconPerks_WanderingEye.png"
+        }
+      ]
+    },
+    {
+      "name": "The Legion",
+      "image": "images/Killer Resources/The Legion/K14_TheLegion_Portrait.png",
+      "perks": [
+        {
+          "name": "Discordance",
+          "image": "images/Killer Resources/The Legion/Adept Perks/iconPerks_Discordance.png"
+        },
+        {
+          "name": "Iron Maiden",
+          "image": "images/Killer Resources/The Legion/Adept Perks/iconPerks_IronMaiden.png"
+        },
+        {
+          "name": "Mad Grit",
+          "image": "images/Killer Resources/The Legion/Adept Perks/iconPerks_MadGrit.png"
+        }
+      ]
+    },
+    {
+      "name": "The Lich",
+      "image": "images/Killer Resources/The Lich/K36_TheLich_Portrait.png",
+      "perks": [
+        {
+          "name": "Dark Arrogance",
+          "image": "images/Killer Resources/The Lich/Adept Perks/iconPerks_DarkArrogance.png"
+        },
+        {
+          "name": "Languid Touch",
+          "image": "images/Killer Resources/The Lich/Adept Perks/iconPerks_LanguidTouch.png"
+        },
+        {
+          "name": "Weave Attunement",
+          "image": "images/Killer Resources/The Lich/Adept Perks/iconPerks_WeaveAttunement.png"
+        }
+      ]
+    },
+    {
+      "name": "The Mastermind",
+      "image": "images/Killer Resources/The Mastermind/K29_TheMasterMind_Portrait.png",
+      "perks": [
+        {
+          "name": "Awakened Awareness",
+          "image": "images/Killer Resources/The Mastermind/Adept Perks/iconPerks_AwakenedAwarenesss.png"
+        },
+        {
+          "name": "Superior Anatomy",
+          "image": "images/Killer Resources/The Mastermind/Adept Perks/iconPerks_SuperiorAnatomy.png"
+        },
+        {
+          "name": "Terminus",
+          "image": "images/Killer Resources/The Mastermind/Adept Perks/iconPerks_Terminus.png"
+        }
+      ]
+    },
+    {
+      "name": "The Nemesis",
+      "image": "images/Killer Resources/The Nemesis/K24_TheNemesis_Portrait.png",
+      "perks": [
+        {
+          "name": "Eruption",
+          "image": "images/Killer Resources/The Nemesis/Adept Perks/iconPerks_Eruption.png"
+        },
+        {
+          "name": "Hysteria",
+          "image": "images/Killer Resources/The Nemesis/Adept Perks/iconPerks_Hysteria.png"
+        },
+        {
+          "name": "Lethal Pursuer",
+          "image": "images/Killer Resources/The Nemesis/Adept Perks/iconPerks_LethalPursuer.png"
+        }
+      ]
+    },
+    {
+      "name": "The Nightmare",
+      "image": "images/Killer Resources/The Nightmare/K10_TheNightmare_Portrait.png",
+      "perks": [
+        {
+          "name": "Blood Warden",
+          "image": "images/Killer Resources/The Nightmare/Adept Perks/iconPerks_BloodWarden.png"
+        },
+        {
+          "name": "Fire Up",
+          "image": "images/Killer Resources/The Nightmare/Adept Perks/iconPerks_FireUp.png"
+        },
+        {
+          "name": "Remember Me",
+          "image": "images/Killer Resources/The Nightmare/Adept Perks/iconPerks_RememberMe.png"
+        }
+      ]
+    },
+    {
+      "name": "The Nurse",
+      "image": "images/Killer Resources/The Nurse/K04_TheNurse_Portrait.png",
+      "perks": [
+        {
+          "name": "A Nurse's Calling",
+          "image": "images/Killer Resources/The Nurse/Adept Perks/iconPerks_ANursesCalling.png"
+        },
+        {
+          "name": "Stridor",
+          "image": "images/Killer Resources/The Nurse/Adept Perks/iconPerks_Stridor.png"
+        },
+        {
+          "name": "Thanatophobia",
+          "image": "images/Killer Resources/The Nurse/Adept Perks/iconPerks_Thatanophobia.png"
+        }
+      ]
+    },
+    {
+      "name": "The Oni",
+      "image": "images/Killer Resources/The Oni/K18_TheOni_Portrait.png",
+      "perks": [
+        {
+          "name": "Blood Echo",
+          "image": "images/Killer Resources/The Oni/Adept Perks/iconPerks_BloodEcho.png"
+        },
+        {
+          "name": "Nemesis",
+          "image": "images/Killer Resources/The Oni/Adept Perks/iconPerks_Nemesis.png"
+        },
+        {
+          "name": "Zanshin Tactics",
+          "image": "images/Killer Resources/The Oni/Adept Perks/iconPerks_ZanshinTactics.png"
+        }
+      ]
+    },
+    {
+      "name": "The Onryo",
+      "image": "images/Killer Resources/The Onryo/K27_TheOnryo_Portrait.png",
+      "perks": [
+        {
+          "name": "Call of Brine",
+          "image": "images/Killer Resources/The Onryo/Adept Perks/iconPerks_CallOfBrine.png"
+        },
+        {
+          "name": "Scourge Hook: Floods of Rage",
+          "image": "images/Killer Resources/The Onryo/Adept Perks/iconPerks_FloodOfRage.png"
+        },
+        {
+          "name": "Merciless Storm",
+          "image": "images/Killer Resources/The Onryo/Adept Perks/iconPerks_MercilessStorm.png"
+        }
+      ]
+    },
+    {
+      "name": "The Pig",
+      "image": "images/Killer Resources/The Pig/K11_ThePig_Portrait.png",
+      "perks": [
+        {
+          "name": "Scourge Hook: Hangman's Trick",
+          "image": "images/Killer Resources/The Pig/Adept Perks/iconPerks_HangmansTrick.png"
+        },
+        {
+          "name": "Make Your Choice",
+          "image": "images/Killer Resources/The Pig/Adept Perks/iconPerks_MakeYourChoice.png"
+        },
+        {
+          "name": "Sureillance",
+          "image": "images/Killer Resources/The Pig/Adept Perks/iconPerks_Surveillance.png"
+        }
+      ]
+    },
+    {
+      "name": "The Plague",
+      "image": "images/Killer Resources/The Plague/K15_ThePlague_Portrait.png",
+      "perks": [
+        {
+          "name": "Corrupt Intervention",
+          "image": "images/Killer Resources/The Plague/Adept Perks/iconPerks_CorruptIntervention.png"
+        },
+        {
+          "name": "Dark Devotion",
+          "image": "images/Killer Resources/The Plague/Adept Perks/iconPerks_DarkDevotion.png"
+        },
+        {
+          "name": "Infectious Fright",
+          "image": "images/Killer Resources/The Plague/Adept Perks/iconPerks_InfectiousFright.png"
+        }
+      ]
+    },
+    {
+      "name": "The Shape",
+      "image": "images/Killer Resources/The Shape/K06_TheShape_Portrait.png",
+      "perks": [
+        {
+          "name": "Dying Light",
+          "image": "images/Killer Resources/The Shape/Adept Perks/iconPerks_DyingLight.png"
+        },
+        {
+          "name": "Play With Your Food",
+          "image": "images/Killer Resources/The Shape/Adept Perks/iconPerks_PlayWithYourFood.png"
+        },
+        {
+          "name": "Save the Best for Last",
+          "image": "images/Killer Resources/The Shape/Adept Perks/iconPerks_SaveTheBestForLast.png"
+        }
+      ]
+    },
+    {
+      "name": "The Singularity",
+      "image": "images/Killer Resources/The Singularity/K32_TheSingularity_Portrait.png",
+      "perks": [
+        {
+          "name": "Forced Hesitation",
+          "image": "images/Killer Resources/The Singularity/Adept Perks/IconPerks_ForcedHesitation.png"
+        },
+        {
+          "name": "Genetic Limits",
+          "image": "images/Killer Resources/The Singularity/Adept Perks/IconPerks_GeneticLimits.png"
+        },
+        {
+          "name": "Machine Learning",
+          "image": "images/Killer Resources/The Singularity/Adept Perks/IconPerks_SelfAware.png"
+        }
+      ]
+    },
+    {
+      "name": "The Skull Merchant",
+      "image": "images/Killer Resources/The Skull Merchant/K31_TheSkullMerchant_Portrait.png",
+      "perks": [
+        {
+          "name": "Game Afoot",
+          "image": "images/Killer Resources/The Skull Merchant/Adept Perks/iconPerks_GameAfoot.png"
+        },
+        {
+          "name": "Leverage",
+          "image": "images/Killer Resources/The Skull Merchant/Adept Perks/iconPerks_Leverage.png"
+        },
+        {
+          "name": "Thwack!",
+          "image": "images/Killer Resources/The Skull Merchant/Adept Perks/iconPerks_Thwack.png"
+        }
+      ]
+    },
+    {
+      "name": "The Spirit",
+      "image": "images/Killer Resources/The Spirit/K13_TheSpirit_Portrait.png",
+      "perks": [
+        {
+          "name": "Rancor",
+          "image": "images/Killer Resources/The Spirit/Adept Perks/iconPerks_Hatred.png"
+        },
+        {
+          "name": "Hex: Haunted Ground",
+          "image": "images/Killer Resources/The Spirit/Adept Perks/iconPerks_HauntedGround.png"
+        },
+        {
+          "name": "Spirit Fury",
+          "image": "images/Killer Resources/The Spirit/Adept Perks/iconPerks_SpiritFury.png"
+        }
+      ]
+    },
+    {
+      "name": "The Trickster",
+      "image": "images/Killer Resources/The Trickster/K23_TheTrickster_Portrait.png",
+      "perks": [
+        {
+          "name": "Hex: Crowd Control",
+          "image": "images/Killer Resources/The Trickster/Adept Perks/iconPerks_HexCrowdControl.png"
+        },
+        {
+          "name": "No Way Out",
+          "image": "images/Killer Resources/The Trickster/Adept Perks/iconPerks_NoWayOut.png"
+        },
+        {
+          "name": "Starstruck",
+          "image": "images/Killer Resources/The Trickster/Adept Perks/iconPerks_Starstruck.png"
+        }
+      ]
+    },
+    {
+      "name": "The Twins",
+      "image": "images/Killer Resources/The Twins/K22_TheTwins_Portrait.png",
+      "perks": [
+        {
+          "name": "Coup De Grace",
+          "image": "images/Killer Resources/The Twins/Adept Perks/iconPerks_CoupDeGrace.png"
+        },
+        {
+          "name": "Hoarder",
+          "image": "images/Killer Resources/The Twins/Adept Perks/iconPerks_Hoarder.png"
+        },
+        {
+          "name": "Oppression",
+          "image": "images/Killer Resources/The Twins/Adept Perks/iconPerks_Oppression.png"
+        }
+      ]
+    },
+    {
+      "name": "The Unknown",
+      "image": "images/Killer Resources/The Unknown/K35_TheUnknown_Portrait.png",
+      "perks": [
+        {
+          "name": "Unbound",
+          "image": "images/Killer Resources/The Unknown/Adept Perks/iconPerks_Unbound.png"
+        },
+        {
+          "name": "Undone",
+          "image": "images/Killer Resources/The Unknown/Adept Perks/iconPerks_Undone.png"
+        },
+        {
+          "name": "Unforeseen",
+          "image": "images/Killer Resources/The Unknown/Adept Perks/iconPerks_Unforeseen.png"
+        }
+      ]
+    },
+    {
+      "name": "The Wraith",
+      "image": "images/Killer Resources/The Wraith/K02_TheWraith_Portrait.png",
+      "perks": [
+        {
+          "name": "Bloodhound",
+          "image": "images/Killer Resources/The Wraith/Adept Perks/iconPerks_Bloodhound.png"
+        },
+        {
+          "name": "Predator",
+          "image": "images/Killer Resources/The Wraith/Adept Perks/iconPerks_Predator.png"
+        },
+        {
+          "name": "Shadowborn",
+          "image": "images/Killer Resources/The Wraith/Adept Perks/iconPerks_Shadowborn.png"
+        }
+      ]
+    },
+    {
+      "name": "The Xenomorph",
+      "image": "images/Killer Resources/The Xenomorph/K33_TheXenomorph_Portrait.png",
+      "perks": [
+        {
+          "name": "Alien Instinct",
+          "image": "images/Killer Resources/The Xenomorph/Adept Perks/iconPerks_AlienInstinct.png"
+        },
+        {
+          "name": "Rapid Brutality",
+          "image": "images/Killer Resources/The Xenomorph/Adept Perks/iconPerks_RapidBrutality.png"
+        },
+        {
+          "name": "Ultimate Weapon",
+          "image": "images/Killer Resources/The Xenomorph/Adept Perks/iconPerks_UltimateWeapon.png"
+        }
+      ]
     }
   ]
 }
