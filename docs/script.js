@@ -41,11 +41,8 @@ function generateLoadout() {
     const perkImg = typeof perk === "string" ? perk : perk.image;
     document.getElementById("perk-img").src = perkImg;
 
-    const addon1Img = typeof addon1 === "string" ? addon1 : addon1.image;
-    const addon2Img = typeof addon2 === "string" ? addon2 : addon2.image;
-
-    document.getElementById("addon1-img").src = addon1Img;
-    document.getElementById("addon2-img").src = addon2Img;
+    document.getElementById("addon1-img").src = addon1.image;
+    document.getElementById("addon2-img").src = addon2.image;
 }
 
 window.onload = async () => {
