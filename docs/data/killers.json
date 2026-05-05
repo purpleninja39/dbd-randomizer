@@ -17,6 +17,60 @@
           "image": "images/Killer Resources/The Trapper/Adept Perks/iconPerks_UnnervingPresence.png"
         }
       ]
+    },
+    {
+      "name": "The Animatronic",
+      "image": "images/Killer Resources/The Animatronic/K40_TheAnimatronic_Portrait.png",
+      "perks": [
+        {
+          "name": "Haywire",
+          "image": "images/Killer Resources/The Animatronic/Adept Perks/T_UI_iconPerks_Haywire.png"
+        },
+        {
+          "name": "Help Wanted",
+          "image": "images/Killer Resources/The Animatronic/Adept Perks/T_UI_iconPerks_HelpWanted.png"
+        },
+        {
+          "name": "Phantom Fear",
+          "image": "images/Killer Resources/The Animatronic/Adept Perks/T_UI_iconPerks_PhantomFear.png"
+        }
+      ]
+    },
+    {
+      "name": "The Artist",
+      "image": "images/Killer Resources/The Artist/K26_TheArtist_Portrait.png",
+      "perks": [
+        {
+          "name": "Haywire",
+          "image": "images/Killer Resources/The Artist/Adept Perks/T_iconPerks_GrimEmbrace.png"
+        },
+        {
+          "name": "Help Wanted",
+          "image": "images/Killer Resources/The Artist/Adept Perks/T_iconPerks_HexPentimento.png"
+        },
+        {
+          "name": "Phantom Fear",
+          "image": "images/Killer Resources/The Artist/Adept Perks/T_iconPerks_PainResonance.png"
+        }
+      ]
+    },
+    {
+      "name": "The Blight",
+      "image": "images/Killer Resources/The Blight/K21_TheBlight_Portrait.png",
+      "perks": [
+        {
+          "name": "Dragon's Grip",
+          "image": "images/Killer Resources/The Blight/Adept Perks/iconPerks_DragonsGrip.png"
+        },
+        {
+          "name": "Hex: Blood Favor",
+          "image": "images/Killer Resources/The Blight/Adept Perks/iconPerks_HexBloodFavor.png"
+        },
+        {
+          "name": "Hex: Undying",
+          "image": "images/Killer Resources/The Blight/Adept Perks/iconPerks_HexUndying.png"
+        }
+      ]
     }
   ]
 }
