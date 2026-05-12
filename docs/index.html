@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <title>DBD Killer Randomizer</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 <body>
+
+<div class="main-container">
 
 <p id="end-message"></p>
 
@@ -15,10 +18,14 @@
 
 <h1 id="killer-name">Loading...</h1>
 
+    <div class="killer-frame">
 <img id="killer-img" alt="Killer Image" class="killer-image" />
+    </div>
 
 <h2>Adept Perk</h2>
-<img id="perk-img" alt="Perk Image" class="perk-image" />
+    <div class="perk-frame">
+        <img id="perk-img" alt="Perk Image" class="perk-image" />
+    </div>
 
 <h2>Additional Perks</h2>
 
@@ -38,6 +45,8 @@
 <div class="buttons">
     <button id="roll-btn">Roll Killer</button>
     <button id="loss-btn">Record Loss</button>
+</div>
+
 </div>
 
 <script src="script.js"></script>

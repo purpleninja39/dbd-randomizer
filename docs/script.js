@@ -71,10 +71,10 @@ function getRandomAddon() {
 
 //Populates the 3 perk dropdowns, only showing available perks (status: O)
 function populateDropdowns() {
-    // Only allow active perks
-    const availablePerks = allPerks.filter(
-        perk => perk.status === "O"
-    );
+    // Only allow active perks, also alphabetizes them
+    const availablePerks = allPerks
+        .filter(perk => perk.status === "O")
+        .sort((a, b) => a.name.localeCompare(b.name));
 
     // Store references to the 3 dropdowns
     const selects = [

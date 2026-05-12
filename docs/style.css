@@ -2,6 +2,34 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 40px;
+
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.62);
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.35);
+}
+
+.perk-frame {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    background-image: url("images/perk_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 img {

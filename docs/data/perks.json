@@ -637,7 +637,7 @@
       "status": "O"
     },
     {
-      "name": "Thrill of the Hunt",
+      "name": "Hex: Thrill of the Hunt",
       "image": "images/Perk Images/iconPerks_ThrillOfTheHunt.png",
       "from": "General",
       "status": "O"
@@ -783,7 +783,7 @@
     {
       "name": "Hex: Nothing But Misery",
       "image": "images/Perk Images/T_UI_iconPerks_NothingButMisery.png",
-      "from": "TEMP",
+      "from": "The Ghoul",
       "status": "O"
     },
     {
@@ -807,7 +807,7 @@
     {
       "name": "Wandering Eye",
       "image": "images/Perk Images/T_UI_iconPerks_WanderingEye.png",
-      "from": "TEMP",
+      "from": "The Krasue",
       "status": "O"
     },
     {
