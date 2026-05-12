@@ -49,7 +49,11 @@ function getAvailableKillers() {
 
 //This grabs the available killers, then selects a random one
 function getRandomKiller() {
-    const availableKillers = getAvailableKillers();
+    const availableKillers =
+        getAvailableKillers();
+    if (availableKillers.length === 0) {
+        return null;
+    }
     return randomItem(availableKillers);
 }
 
@@ -102,7 +106,12 @@ function populateDropdowns() {
 //-Two random addons
 //-Refreshing the perk dropdowns showing the available perks
 function generateLoadout() {
-    const killer = getRandomKiller();
+    currentKiller = getRandomKiller();
+    const killer = currentKiller;
+    if (!killer) {
+        return;
+    }
+
     const perk = getRandomAdeptPerk(killer);
 
     const addon1 = getRandomAddon();
@@ -122,18 +131,6 @@ function generateLoadout() {
     populateDropdowns();
 }
 
-/*
-  Records a loss for the current run.
-
-  Rules:
-  - ALL perks belonging to the current killer
-    become disabled ("X")
-  - Any selected GENERAL perks also become disabled
-
-  After updating:
-  - statuses are saved
-  - a new loadout is generated
-*/
 //Records a loss
 //All the current killers' perks are disabled.
 //Any general perks currently selected are disabled
