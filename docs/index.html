@@ -2,26 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>DBD Killer Randomizer (PROTOTYPE)</title>
+    <title>DBD Killer Randomizer</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+<p id="end-message"></p>
+
+<audio id="end-sound">
+    <source src="sounds/perfect-fart.mp3" type="audio/mpeg">
+</audio>
+
 <h1 id="killer-name">Loading...</h1>
 
-<img id="killer-img" alt="Killer Image" />
+<img id="killer-img" alt="Killer Image" class="killer-image" />
 
 <h2>Adept Perk</h2>
-<img id="perk-img" alt="Perk Image" />
+<img id="perk-img" alt="Perk Image" class="perk-image" />
+
+<h2>Additional Perks</h2>
+
+<div class="perk-selects">
+    <select id="perk-select-1"></select>
+    <select id="perk-select-2"></select>
+    <select id="perk-select-3"></select>
+</div>
 
 <h2>Add-ons</h2>
+
 <div id="addons">
     <img id="addon1-img" alt="Addon 1" />
     <img id="addon2-img" alt="Addon 2" />
 </div>
 
-<button id="roll-btn">Roll Killer</button>
+<div class="buttons">
+    <button id="roll-btn">Roll Killer</button>
+    <button id="loss-btn">Record Loss</button>
+</div>
 
 <script src="script.js"></script>
+
 </body>
 </html>

@@ -5,9 +5,15 @@ body {
 }
 
 img {
-    max-width: 200px;
-    height: auto;
     margin: 10px;
+}
+
+.killer-image {
+    width: 300px;
+}
+
+.perk-image {
+    width: 128px;
 }
 
 #addons {
@@ -16,8 +22,35 @@ img {
     gap: 20px;
 }
 
+#addons img {
+    width: 100px;
+}
+
+.perk-selects {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+select {
+    padding: 8px;
+    width: 250px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
 button {
-    margin-top: 20px;
     padding: 10px 20px;
+    margin: 0 10px;
     cursor: pointer;
+}
+
+#end-message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
 }

@@ -9,8 +9,20 @@
       "image": "images/Add-on Rarities/Dbd-addons-uncommon.png"
     },
     {
+      "name": "Uncommon",
+      "image": "images/Add-on Rarities/Dbd-addons-uncommon.png"
+    },
+    {
       "name": "Rare",
       "image": "images/Add-on Rarities/Dbd-addons-rare.png"
+    },
+    {
+      "name": "Rare",
+      "image": "images/Add-on Rarities/Dbd-addons-rare.png"
+    },
+    {
+      "name": "Very Rare",
+      "image": "images/Add-on Rarities/Dbd-addons-veryrare.png"
     },
     {
       "name": "Very Rare",
