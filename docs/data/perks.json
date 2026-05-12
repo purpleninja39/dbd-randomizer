@@ -199,6 +199,12 @@
       "status": "O"
     },
     {
+      "name": "Enduring",
+      "image": "images/Perk Images/IconPerks_enduring.png",
+      "from": "The Hillbilly",
+      "status": "O"
+    },
+    {
       "name": "Eruption",
       "image": "images/Perk Images/iconPerks_Eruption.png",
       "from": "The Nemesis",
