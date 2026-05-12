@@ -18,7 +18,7 @@ body {
     background: rgba(255, 255, 255, 0.62);
     border-radius: 20px;
     box-shadow: 0 0 25px rgba(0,0,0,0.35);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 
 .rules{
@@ -69,7 +69,7 @@ select:focus {
     background-position: center;
 }
 
-.killer-image, #addons img{
+.killer-image, .perk-image, #addons img{
     filter:
             drop-shadow(0 4px 10px rgba(0,0,0,0.25));
     transition:
