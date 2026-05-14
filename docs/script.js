@@ -121,8 +121,7 @@ function generateLoadout() {
     document.getElementById("killer-name").textContent = killer.name;
     document.getElementById("killer-img").src = killer.image;
 
-    const perkImg = typeof perk === "string" ? perk : perk.image;
-    document.getElementById("perk-img").src = perkImg;
+    document.getElementById("perk-img").src = perk.image;
 
     document.getElementById("addon1-img").src = addon1.image;
     document.getElementById("addon2-img").src = addon2.image;
@@ -225,43 +224,6 @@ function loadSavedStatuses() {
     });
 }
 
-// This function will run after the website loads
-// -Loads all JSON data
-// -Generates the current loadout
-// -Attaches button listeners
-window.onload = async () => {
-    await loadData();
-
-    // Winstreak page
-    if (
-        document.getElementById("roll-btn")
-    ) {
-        generateLoadout();
-        document
-            .getElementById("roll-btn")
-            .addEventListener(
-                "click",
-                generateLoadout
-            );
-        document
-            .getElementById("loss-btn")
-            .addEventListener(
-                "click",
-                recordLoss
-            );
-    }
-
-    // Chaos page
-    if (
-        document.getElementById(
-            "roll-random-btn"
-        )
-    ) {
-        initializeChaosPage();
-    }
-
-};
-
 // This function will return count random, non-repeating items from arr.
 function getRandomUniqueItems(arr, count) {
     // Clone array so original is untouched
@@ -351,3 +313,40 @@ async function initializeChaosPage() {
         generateChaosBuild
     );
 }
+
+// This function will run after the website loads
+// -Loads all JSON data
+// -Generates the current loadout
+// -Attaches button listeners
+window.onload = async () => {
+    await loadData();
+
+    // Winstreak page
+    if (
+        document.getElementById("roll-btn")
+    ) {
+        generateLoadout();
+        document
+            .getElementById("roll-btn")
+            .addEventListener(
+                "click",
+                generateLoadout
+            );
+        document
+            .getElementById("loss-btn")
+            .addEventListener(
+                "click",
+                recordLoss
+            );
+    }
+
+    // Chaos page
+    if (
+        document.getElementById(
+            "roll-random-btn"
+        )
+    ) {
+        initializeChaosPage();
+    }
+
+};
