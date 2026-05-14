@@ -231,18 +231,35 @@ function loadSavedStatuses() {
 // -Attaches button listeners
 window.onload = async () => {
     await loadData();
-    generateLoadout();
 
-    // Roll button
-    document
-        .getElementById("roll-btn")
-        .addEventListener("click", generateLoadout);
-    // Loss button
-    document
-        .getElementById("loss-btn")
-        .addEventListener("click", recordLoss);
+    // Winstreak page
+    if (
+        document.getElementById("roll-btn")
+    ) {
+        generateLoadout();
+        document
+            .getElementById("roll-btn")
+            .addEventListener(
+                "click",
+                generateLoadout
+            );
+        document
+            .getElementById("loss-btn")
+            .addEventListener(
+                "click",
+                recordLoss
+            );
+    }
 
-    initializeChaosPage();
+    // Chaos page
+    if (
+        document.getElementById(
+            "roll-random-btn"
+        )
+    ) {
+        initializeChaosPage();
+    }
+
 };
 
 // This function will return count random, non-repeating items from arr.
@@ -309,7 +326,7 @@ function generateChaosBuild() {
     ).src = addon2.image;
 }
 
-function initializeChaosPage() {
+async function initializeChaosPage() {
     // Prevent errors if page
     // doesn't contain chaos UI
     const button =
@@ -317,6 +334,15 @@ function initializeChaosPage() {
             "roll-random-btn"
         );
     if (!button) return;
+
+    // Ensure data is loaded
+    if (
+        killers.length === 0 ||
+        allPerks.length === 0 ||
+        addons.length === 0
+    ) {
+        await loadData();
+    }
 
     generateChaosBuild();
 
