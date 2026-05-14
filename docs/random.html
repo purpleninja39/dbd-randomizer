@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>DBD Randomizer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+<nav class="menu-bar">
+    <a href="index.html">Winstreak Mode</a>
+    <a href="random.html">Chaos Randomizer</a>
+</nav>
+<div class="main-container">
+
+    <h1 id="killer-name">Loading...</h1>
+    <div class="perk-frame killer-frame">
+        <img
+                id="killer-img"
+                alt="Killer Portrait"
+                class="killer-image"
+        />
+    </div>
+
+    <h2>Random Perks</h2>
+    <div id="random-perks">
+        <div class="perk-frame">
+            <img id="perk1-img" class="perk-image" />
+        </div>
+        <div class="perk-frame">
+            <img id="perk2-img" class="perk-image" />
+        </div>
+        <div class="perk-frame">
+            <img id="perk3-img" class="perk-image" />
+        </div>
+        <div class="perk-frame">
+            <img id="perk4-img" class="perk-image" />
+        </div>
+    </div>
+
+    <h2>Add-ons</h2>
+    <div id="addons">
+        <div class="perk-frame addon-frame">
+            <img id="addon1-img" />
+        </div>
+        <div class="perk-frame addon-frame">
+            <img id="addon2-img" />
+        </div>
+    </div>
+
+    <button id="roll-random-btn">
+        Generate Random Build
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

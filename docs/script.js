@@ -241,4 +241,87 @@ window.onload = async () => {
     document
         .getElementById("loss-btn")
         .addEventListener("click", recordLoss);
+
+    initializeChaosPage();
 };
+
+// This function will return count random, non-repeating items from arr.
+function getRandomUniqueItems(arr, count) {
+    // Clone array so original is untouched
+    const shuffled = [...arr];
+    // Fisher-Yates shuffle
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(
+            Math.random() * (i + 1)
+        );
+        [shuffled[i], shuffled[j]] =
+            [shuffled[j], shuffled[i]];
+    }
+    return shuffled.slice(0, count);
+}
+
+function generateChaosBuild() {
+    // Random killer
+    const killer =
+        randomItem(killers);
+    // Random perks
+    const perks =
+        getRandomUniqueItems(allPerks, 4);
+    // Random addons
+    const addon1 =
+        getRandomAddon();
+    const addon2 =
+        getRandomAddon();
+
+    // Render killer
+    document.getElementById(
+        "killer-name"
+    ).textContent = killer.name;
+
+    document.getElementById(
+        "killer-img"
+    ).src = killer.image;
+
+    // Render perks
+    document.getElementById(
+        "perk1-img"
+    ).src = perks[0].image;
+
+    document.getElementById(
+        "perk2-img"
+    ).src = perks[1].image;
+
+    document.getElementById(
+        "perk3-img"
+    ).src = perks[2].image;
+
+    document.getElementById(
+        "perk4-img"
+    ).src = perks[3].image;
+
+    // Render addons
+    document.getElementById(
+        "addon1-img"
+    ).src = addon1.image;
+
+    document.getElementById(
+        "addon2-img"
+    ).src = addon2.image;
+}
+
+function initializeChaosPage() {
+    // Prevent errors if page
+    // doesn't contain chaos UI
+    const button =
+        document.getElementById(
+            "roll-random-btn"
+        );
+    if (!button) return;
+
+    generateChaosBuild();
+
+    button.addEventListener(
+        "click",
+        generateChaosBuild
+    );
+}
